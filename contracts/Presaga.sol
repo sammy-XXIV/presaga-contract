@@ -87,7 +87,7 @@ contract Presaga is ReentrancyGuard, Ownable {
     uint256 public constant REP_WRONG_HIRE      = 5;
     uint256 public constant PROTOCOL_FEE_BPS    = 250;   // 2.5%
     uint256 public constant AGENT_BONUS_BPS     = 1000;  // 10% of winnings
-    uint256 public constant MIN_BET             = 1e6;   // $1 USDT
+    uint256 public constant MIN_BET             = 1e18;   // $1 USDT
     uint256 public constant MIN_MARKET_DURATION = 5 minutes;
     uint256 public constant MAX_MARKET_DURATION = 30 days;
     uint256 public constant EXECUTE_WINDOW      = 24 hours; // agent has 24hr to execute
